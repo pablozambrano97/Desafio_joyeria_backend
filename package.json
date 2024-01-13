@@ -1,0 +1,25 @@
+{
+  "name": "desafio_joyeria_backend",
+  "version": "1.0.0",
+  "description": "Backend joyeria utilizando 1. Límitederecursos 2. Filtroderecursosporcampos 3. Paginación 4. Ordenamiento 5. EstructuradedatosHATEOAS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "pg": "^8.11.3",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
